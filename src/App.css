@@ -8,11 +8,78 @@
 }
 
 .App-header {
-  background-color: #773434;
+  background-color: #202125;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.ctable {
+  width: 85%;
+}
+
+.ctable td, th{
+  border-bottom: solid;
+  border-width: 4px;
+  border-color:  #000000;
+}
+
+.ctable td{
+  background-color: #152b80;
+}
+
+.ctable tr{
+  background-color: #5a5c63;
+  font-size: 12pt;
+}
+
+.ctable tr:hover{
+  background-color: #35363a;
+}
+
+.myButton {
+	background-color:#ffffff;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:3px 15px;
+	text-decoration:none;
+}
+.myButton:hover {
+  color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.redBtn{
+  border:3px solid #c74444;
+}
+
+.redBtn:hover{
+  background-color:#c74444;
+}
+
+.grayBtn{
+  border:3px solid #aaaaaa;
+}
+
+.grayBtn:hover{
+  background-color:#aaaaaa;
+}
+
+.greenBtn{
+  border:3px solid #44c767;
+}
+
+.greenBtn:hover{
+  background-color:#44c767;
 }
